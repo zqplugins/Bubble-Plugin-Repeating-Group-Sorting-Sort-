@@ -1,0 +1,33 @@
+{
+    "category": "plugins",
+    "display": "Sort Repeating Group by Text",
+    "fields": {
+        "AAL": {
+            "caption": "Cell ID",
+            "default_val": "",
+            "doc": "This is the ID of the element inside your repeating group that contains the text value you want to sort on.",
+            "editor": "DynamicValue",
+            "name": "cell_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "Repeating Group ID",
+            "default_val": "",
+            "doc": "This is the ID of your repeating group you want to sort.",
+            "editor": "DynamicValue",
+            "name": "repeating_group_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Ascending?",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "ascending",
+            "rank": 2,
+            "value": "boolean"
+        }
+    },
+    "type": "client_side"
+}

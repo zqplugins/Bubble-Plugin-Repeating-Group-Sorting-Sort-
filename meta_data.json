@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "small business",
+        "2": "productivity",
+        "3": "technical",
+        "4": "data (things)"
+    },
+    "data_tracked": false,
+    "demo_page": "https://sorting-repeating-group.bubbleapps.io/version-test",
+    "description": "This plugin lets you sort a Repeating Group on a field inside the Repeating Group. You can sort on calculated/nested numbers, dates and texts!\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/repeating-group-sorting-sort-plugin-for-bubble-1728497793227x299557242759352000\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//meta-l.cdn.bubble.io/f1686505802355x290614281861793400/162735.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Repeating Group Sorting (Sort)",
+    "plugin_instructions": "1 - Make sure all the rows in your repeating group that you want to sort are visible on the page. Pagination is not supported.\n\n2 - Give your repeating group and the element that contains the value (e.g. text element) you want to sort on an ID attribute.\n\nYou can find the ID attribute field at the bottom of the 'Appearance' properties of an element. See the demo page for more context.\n\nIf you do not have ID attribute enabled, you can enable it in your Bubble application by going to the 'Settings' tab and go to 'General'. Next, scroll all the way down and under 'Advanced options' you find the option to enable 'Expose the option to add an ID attribute to HTML elements'.\n\n3 - Use one of the 3 sorting workflow actions (number, date or text) to sort your repeating group!",
+    "sa_node_version": 18
+}
