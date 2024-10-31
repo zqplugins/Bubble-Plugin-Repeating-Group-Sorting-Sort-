@@ -1,0 +1,43 @@
+{
+    "category": "plugins",
+    "display": "Sort Repeating Group by Date",
+    "fields": {
+        "AAG": {
+            "caption": "Cell ID",
+            "default_val": "",
+            "doc": "This is the ID of the element inside your repeating group that contains the date you want to sort on.",
+            "editor": "DynamicValue",
+            "name": "cell_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Repeating Group ID",
+            "default_val": "",
+            "doc": "This is the ID of your repeating group you want to sort.",
+            "editor": "DynamicValue",
+            "name": "repeating_group_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Ascending?",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "ascending",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAK": {
+            "caption": "Date format",
+            "default_val": "DD/MM/YYYY",
+            "doc": "The exact (!) format your date is in. Make sure the cell you want to sort on only contains the formatted date and nothing else.",
+            "editor": "Dropdown",
+            "name": "date_format",
+            "options": "DD/MM/YYYY,MM/DD/YYYY,YYYY/MM/DD,DD-MM-YYYY,MM-DD-YYYY,YYYY-MM-DD,DD.MM.YYYY,MM.DD.YYYY,YYYY.MM.DD,DD/MM/YY,MM/DD/YY,YY/MM/DD,DD-MM-YY,MM-DD-YY,YY-MM-DD,DD.MM.YY,MM.DD.YY,YY.MM.DD",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

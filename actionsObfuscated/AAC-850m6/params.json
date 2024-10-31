@@ -1,0 +1,52 @@
+{
+    "category": "plugins",
+    "display": "Sort Repeating Group by Number",
+    "fields": {
+        "AAD": {
+            "caption": "Element ID (with value)",
+            "default_val": "",
+            "doc": "This is the ID of the element inside your repeating group that contains the value you want to sort on.",
+            "editor": "DynamicValue",
+            "name": "cell_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Repeating Group ID",
+            "default_val": "",
+            "doc": "This is the ID of your repeating group you want to sort.",
+            "editor": "DynamicValue",
+            "name": "repeating_group_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Ascending?",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "ascending",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAP": {
+            "caption": "Ignore first row?",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "ignore_first_row",
+            "rank": 5
+        },
+        "AAQ": {
+            "caption": "Bubble Table Settings:",
+            "editor": "Label",
+            "name": "info",
+            "rank": 3
+        },
+        "AAR": {
+            "caption": "If you are using a Bubble Table Element you might need the below settings.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 4
+        }
+    },
+    "type": "client_side"
+}
